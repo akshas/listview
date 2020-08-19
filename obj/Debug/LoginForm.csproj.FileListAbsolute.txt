@@ -1,0 +1,15 @@
+C:\Users\alex\source\repos\LoginForm\LoginForm\obj\Debug\LoginForm.csprojAssemblyReference.cache
+C:\Users\alex\source\repos\LoginForm\LoginForm\obj\Debug\MainWindow.g.cs
+C:\Users\alex\source\repos\LoginForm\LoginForm\obj\Debug\App.g.cs
+C:\Users\alex\source\repos\LoginForm\LoginForm\obj\Debug\LoginForm_MarkupCompile.cache
+C:\Users\alex\source\repos\LoginForm\LoginForm\obj\Debug\LoginForm_MarkupCompile.lref
+C:\Users\alex\source\repos\LoginForm\LoginForm\bin\Debug\LoginForm.exe.config
+C:\Users\alex\source\repos\LoginForm\LoginForm\bin\Debug\LoginForm.exe
+C:\Users\alex\source\repos\LoginForm\LoginForm\bin\Debug\LoginForm.pdb
+C:\Users\alex\source\repos\LoginForm\LoginForm\obj\Debug\MainWindow.baml
+C:\Users\alex\source\repos\LoginForm\LoginForm\obj\Debug\LoginForm.g.resources
+C:\Users\alex\source\repos\LoginForm\LoginForm\obj\Debug\LoginForm.Properties.Resources.resources
+C:\Users\alex\source\repos\LoginForm\LoginForm\obj\Debug\LoginForm.csproj.GenerateResource.cache
+C:\Users\alex\source\repos\LoginForm\LoginForm\obj\Debug\LoginForm.csproj.CoreCompileInputs.cache
+C:\Users\alex\source\repos\LoginForm\LoginForm\obj\Debug\LoginForm.exe
+C:\Users\alex\source\repos\LoginForm\LoginForm\obj\Debug\LoginForm.pdb

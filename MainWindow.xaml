@@ -1,0 +1,34 @@
+﻿<Window x:Class="LoginForm.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LoginForm"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <StackPanel>
+            <TextBox x:Name="txt1" Tag="tbox" MouseEnter="txt_MouseEnter" GotFocus="txt_GotFocus" HorizontalAlignment="Center" Margin="0 20 0 10" Width="170" Height="30" Text="Vorname" FontSize="16" VerticalAlignment="Center"/>
+            <TextBox x:Name="txt2" Tag="tbox" MouseEnter="txt_MouseEnter" GotFocus="txt_GotFocus"  HorizontalAlignment="Center" Margin="0 10" Width="170" Height="30" Text="Nachname" FontSize="16" VerticalAlignment="Center"/>
+            <TextBox x:Name="txt3" Tag="tbox" MouseEnter="txt_MouseEnter" GotFocus="txt_GotFocus"  HorizontalAlignment="Center" Margin="0 10" Width="170" Height="30" Text="PLZ" FontSize="16" VerticalAlignment="Center"/>
+            <TextBox x:Name="txt4" Tag="tbox" MouseEnter="txt_MouseEnter" GotFocus="txt_GotFocus"  HorizontalAlignment="Center" Margin="0 10" Width="170" Height="30" Text="Straße" FontSize="16" VerticalAlignment="Center"/>
+            <TextBox x:Name="txt5" Tag="tbox" MouseEnter="txt_MouseEnter" GotFocus="txt_GotFocus"  HorizontalAlignment="Center" Margin="0 10" Width="170" Height="30" Text="Hausnummer" FontSize="16" VerticalAlignment="Center"/>
+            <Button Content="Send" x:Name="btn" Click="btn_Click" Margin="0 20" Width="150" Height="30"/>
+        </StackPanel>
+        <ListView Grid.Column="1" x:Name="list_view">
+            <ListView.View >
+                <GridView x:Name="grid_view">
+                    <GridViewColumn Header="Vorname" DisplayMemberBinding="{Binding Vorname}"/>
+                    <GridViewColumn Header="Nachname" DisplayMemberBinding="{Binding Nachname}"/>
+                    <GridViewColumn Header="PLZ"  DisplayMemberBinding="{Binding PLZ}"/>
+                    <GridViewColumn Header="Strasse" DisplayMemberBinding="{Binding Strasse}"/>
+                    <GridViewColumn Header="Hausnummer" DisplayMemberBinding="{Binding Hausnummer}"/>
+                </GridView>
+            </ListView.View>
+        </ListView> 
+    </Grid>
+</Window>
